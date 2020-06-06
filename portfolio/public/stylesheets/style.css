@@ -1,0 +1,98 @@
+body {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: #00B7FF;
+}
+
+.b {
+    border: 1px solid black;
+}
+
+.b2 {
+    border: 1px solid blue;
+}
+
+.intro {
+    background-image: url('/images/bg-1.jpg');
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+}
+
+.intro-img {
+    width: max-content;
+    overflow: hidden;
+}
+
+.intro-img img {
+    object-fit: cover;
+}
+
+.text-on-intro {
+    margin-top: 11rem;
+    color: white;
+}
+
+.text-on-intro h2 {
+    margin-left: 35rem!important;
+}
+
+.tech-use {
+    height: 700px;
+}
+
+.tech-use-frontend div {
+    width: 10rem;
+}
+
+.tech-use-frontend {
+    display: none;
+}
+
+.tech-use-frontend img {
+    max-width: 100%;
+    max-height: 10rem;
+}
+
+.tech-use-backend {
+    display: none;
+}
+
+.tech-use-backend div {
+    width: 10rem;
+}
+
+.tech-use-backend img {
+    max-width: 100%;
+    max-height: 10rem;
+}
+
+
+/* section knowledge */
+
+.know-1 {
+    padding: 2px;
+}
+
+.know-1 img {
+    width: 88%;
+    height: 41rem;
+    border: 3px solid black;
+}
+
+.know-2 li {
+    font-size: 1.5rem;
+    list-style-type: none;
+}
+
+.sayhello {
+    max-width: 100%;
+    height: 550px;
+    background-image: url('/images/bg-sayhello.jpg');
+}
