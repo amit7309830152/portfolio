@@ -1,5 +1,6 @@
 body {
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
 }
 
 html {
@@ -37,6 +38,7 @@ a {
 .text-on-intro {
     margin-top: 11rem;
     color: white;
+    display: none;
 }
 
 .text-on-intro h2 {
