@@ -1,4 +1,5 @@
 let mongoose = require('mongoose');
+// mongoose.connect('mongodb://localhost:27017/portfolio_query', { useNewUrlParser: true, useUnifiedTopology: true })
 mongoose.connect('mongodb+srv://portfolio:9450533280@cluster-l8bd3.mongodb.net/portfolio_query?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
 
 // mongodb+srv://portfolio:<password>@cluster-l8bd3.mongodb.net/<dbname>?retryWrites=true&w=majority

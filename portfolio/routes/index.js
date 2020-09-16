@@ -18,8 +18,6 @@ router.get('/admin', function(req, res, next) {
         }
     });
 });
-
-
 router.post('/submit_query', function(req, res, next) {
     var query_insert = new query.query_model({ name: req.body.name, email: req.body.email, query: req.body.query })
     query_insert.save(function(err) {
